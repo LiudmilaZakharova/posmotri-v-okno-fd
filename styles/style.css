@@ -229,6 +229,7 @@ ol {
 .search-form__label-text {
     font-family: inherit;
     font-weight: inherit;
+    padding-left: 1.5px;
 }
 
 .search-form__label-text:hover {
@@ -273,7 +274,6 @@ ol {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1.5px 1.5px 1.5px 0;
     width: 19px;
     height: 19px;
     border: #fff solid 1px;
@@ -282,7 +282,6 @@ ol {
 .search-form__pseudo-checkbox:after {
     content: "";
     cursor: pointer;
-    position: absolute;
     width: 15px;
     height: 15px;
     background: #ffffff;
